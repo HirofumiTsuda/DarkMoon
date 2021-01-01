@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:paddingLeft="20dp"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="right"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:text="140"
+        android:textColor="#ffffff"
+        android:id="@+id/tweetcount" />
+    </LinearLayout>
+
+
+    <EditText
+        android:padding="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:background="@drawable/background_corner"
+        android:id="@+id/edittweet"
+        android:gravity="top|left"
+        android:textColor="#000000"
+        android:layout_weight="1" />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_gravity="right"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:id="@+id/camera"
+            android:src="@drawable/instagram_social_network_logo_of_photo"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="8dp"
+            android:id="@+id/location"
+            android:layout_weight="1"
+            android:src="@drawable/locate_places_on_maps"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/tweetsend"
+            android:padding="8dp"
+            android:layout_weight="1"
+            android:src="@drawable/black_back_closed_envelope_shape"/>
+
+    </LinearLayout>
+
+</LinearLayout>

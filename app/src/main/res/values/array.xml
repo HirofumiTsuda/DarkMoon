@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="touch_array">
+        <item>@string/fav</item>
+        <item>@string/menu</item>
+        <item>@string/reply</item>
+        <item>@string/rt</item>
+        <item>@string/steal</item>
+        <item>@string/uort</item>
+
+    </array>
+    <array name="touch_value">
+        <item>fav</item>
+        <item>menu</item>
+        <item>reply</item>
+        <item>rt</item>
+        <item>steal</item>
+        <item>uort</item>
+    </array>
+</resources>

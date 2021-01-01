@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/touch">
+        <ListPreference
+            android:key="left_pref"
+            android:title="@string/left"
+            android:entries="@array/touch_array"
+            android:entryValues="@array/touch_value"/>
+        <ListPreference
+            android:key="center_pref"
+            android:title="@string/center"
+            android:entries="@array/touch_array"
+            android:entryValues="@array/touch_value"/>
+        <ListPreference
+            android:key="right_pref"
+            android:title="@string/right"
+            android:entries="@array/touch_array"
+            android:entryValues="@array/touch_value"/>
+        <ListPreference
+            android:key="left_long_pref"
+            android:title="@string/left_long"
+            android:entries="@array/touch_array"
+            android:entryValues="@array/touch_value"/>
+        <ListPreference
+            android:key="center_long_pref"
+            android:title="@string/center_long"
+            android:entries="@array/touch_array"
+            android:entryValues="@array/touch_value"/>
+        <ListPreference
+            android:key="right_long_pref"
+            android:title="@string/right_long"
+            android:entries="@array/touch_array"
+            android:entryValues="@array/touch_value"/>
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="@string/confirm">
+        <PreferenceScreen
+            android:title="@string/user_confirm"
+            android:key="confirm"/>
+
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:title="リスト"
+        android:key="list_category">
+        <ListPreference
+            android:key="list_preference"
+            android:title="@string/list"
+            android:defaultValue="-1" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

@@ -1,0 +1,37 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 21
+    buildToolsVersion "21.1.2"
+
+    packagingOptions {
+        exclude 'META-INF/LICENSE.txt'
+    }
+
+    defaultConfig {
+        applicationId "com.dacho.darkmoon"
+        minSdkVersion 19
+        targetSdkVersion 21
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    repositories {
+        mavenCentral()
+    }
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:21.0.3'
+    compile 'org.twitter4j:twitter4j-core:4.0.2'
+    compile 'org.twitter4j:twitter4j-async:4.0.2'
+    compile 'org.twitter4j:twitter4j-media-support:4.0.2'
+    compile 'org.twitter4j:twitter4j-stream:4.0.2'
+    compile 'commons-lang:commons-lang:2.6'
+}

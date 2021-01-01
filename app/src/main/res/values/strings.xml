@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">DarkMoon</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="stream_on">Stream On</string>
+    <string name="stream_off">Stream Off</string>
+
+    <string name="pref_name">DarkMoon Settings</string>
+    <string name="touch">タッチ動作</string>
+    <string name="left">左押し</string>
+    <string name="right">右押し</string>
+    <string name="center">中央押し</string>
+    <string name="left_long">左長押し</string>
+    <string name="right_long">右長押し</string>
+    <string name="center_long">中央長押し</string>
+
+    <string name="reply">返信</string>
+    <string name="fav">お気に入り</string>
+    <string name="rt">RT</string>
+    <string name="menu">メニュー</string>
+    <string name="steal">いただく</string>
+    <string name="uort">非公式RT</string>
+
+    <string name="user_confirm">ユーザ認証</string>
+    <string name="confirm">認証</string>
+
+    <string name="list">リストを選択</string>
+
+    <string name="num0">0</string>
+    <string name="num1">1</string>
+    <string name="num2">2</string>
+    <string name="num3">3</string>
+    <string name="num4">4</string>
+    <string name="num5">5</string>
+
+</resources>

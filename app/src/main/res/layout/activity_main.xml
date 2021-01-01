@@ -1,0 +1,59 @@
+<android.support.v4.widget.DrawerLayout
+    android:id="@+id/drawer_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="#000000">
+
+        <fragment
+            android:layout_width="match_parent"
+            android:name="com.dacho.darkmoon.layoutFragment.LoadFragment"
+            android:layout_height="match_parent"
+            android:id="@+id/mainFragment"
+            android:visibility="visible"
+            tools:layout="@layout/load_activity" />
+        <android.support.v4.view.ViewPager
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/pager"
+            android:visibility="gone"
+            android:background="#ff2f2027"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <android.support.v4.view.PagerTabStrip
+                android:layout_width="match_parent"
+                android:id="@+id/strip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:background="#000000"
+                android:textColor="#ffffff"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"/>
+        </android.support.v4.view.ViewPager>
+
+    </LinearLayout>
+
+    <!-- The main content view -->
+
+    <LinearLayout
+        android:id="@+id/left_drawer"
+        android:layout_width="240dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:background="#333" >
+
+        <Button
+            android:id="@+id/drawer_button"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="drawer button" />
+
+    </LinearLayout>
+
+\</android.support.v4.widget.DrawerLayout>
